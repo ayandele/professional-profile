@@ -1,0 +1,189 @@
+* {
+ box-sizing: border-box;
+
+}
+
+body {
+
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 50;
+}
+
+header {    
+    padding: 10px;
+    width: auto;
+    background-color: rgb(0, 6, 8);
+    text-align: left;
+    color: #ffffff;
+    
+  } 
+    
+ul {
+    text-align: right;
+    color: #f1e7e7;
+  }
+
+  
+.aboutme {
+ margin-left: 20%;
+ margin-right: 5%;
+}
+
+ 
+  .work {
+    width: 70%;
+    /* Sets top and bottom margin to 20px. Auto will center element */
+    margin: 50px auto;
+    /* border-bottom: 5px solid darkblue; */
+    background-color: #ffffd4;
+  }
+
+  .container {
+    margin: 0%;
+    padding: auto;
+    color: #ffffd4;
+  }
+
+  h2 {
+    text-align: left;
+     color: #080808;
+  }
+ 
+
+body {
+    margin: 2%;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.box-wrapper {
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+} */
+
+/* #box1 {
+    padding: 10px;
+    border: solid 1px green
+}
+
+#box2 {
+    padding: 8px;
+    border: solid 1px blue
+} */
+
+/* #box3 {
+    padding: 10px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    border: solid 1px green
+} */
+
+#aboutme {
+    flex-grow: 2;
+    /* border: solid 1px orange */
+}
+
+#work {
+    flex-grow: 10;
+    display: flex;
+    flex-direction: column;
+}
+
+.work div {
+    flex-grow: 1;
+    margin: 0 8px;
+    border: solid 1px red;
+}
+
+.work div+div {
+    margin-top: 8px
+} */
+
+/* #box8 {
+    flex-grow: 1;
+    border: solid 1px black
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+  aside {
+    flex: 20%;
+    background-color: #edf3ee;
+    padding: 10px;
+    flex-wrap: wrap; */
+  
+
+  /* List items in navigation bar
+  li {
+    /* Sets display to inline */
+    /* display: inline;
+    list-style-type: none;
+    font-size: 24px;
+  } */ 
+
+  /* Boxes */
+  /* img {
+    /* Sets display to block */
+    /* display: block; */
+    /*Sets margins to center elements*/
+    /* margin: 0 auto; */
+  /* } */ 
+  
+  /* #About Me {
+    background-color: #e0115f;
+  }
+  
+  #Work {
+    background-color: #0000ff;
+  }
+  
+  #Contact {
+    background-color: #999900;
+  }
+
+  #Resume {
+    background-color: #999900;
+  }
+  
+
+  ul {
+    text-align: center;
+    color: #080808;
+  }
+
+  li {
+    /* Sets display to inline */
+    /* display: inline;
+    list-style-type: none;
+    font-size: 24px;
+  } */ 
+
+  
