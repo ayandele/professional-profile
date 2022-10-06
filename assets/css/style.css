@@ -87,7 +87,7 @@ body {
     /* border: solid 1px orange */
 }
 
-#work {
+.work {
     flex-grow: 10;
     display: flex;
     flex-direction: column;
@@ -101,89 +101,4 @@ body {
 
 .work div+div {
     margin-top: 8px
-} */
-
-/* #box8 {
-    flex-grow: 1;
-    border: solid 1px black
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-  aside {
-    flex: 20%;
-    background-color: #edf3ee;
-    padding: 10px;
-    flex-wrap: wrap; */
-  
-
-  /* List items in navigation bar
-  li {
-    /* Sets display to inline */
-    /* display: inline;
-    list-style-type: none;
-    font-size: 24px;
-  } */ 
-
-  /* Boxes */
-  /* img {
-    /* Sets display to block */
-    /* display: block; */
-    /*Sets margins to center elements*/
-    /* margin: 0 auto; */
-  /* } */ 
-  
-  /* #About Me {
-    background-color: #e0115f;
-  }
-  
-  #Work {
-    background-color: #0000ff;
-  }
-  
-  #Contact {
-    background-color: #999900;
-  }
-
-  #Resume {
-    background-color: #999900;
-  }
-  
-
-  ul {
-    text-align: center;
-    color: #080808;
-  }
-
-  li {
-    /* Sets display to inline */
-    /* display: inline;
-    list-style-type: none;
-    font-size: 24px;
-  } */ 
-
-  
+} 
